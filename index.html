@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <style type="text/css"> 
       a { text-decoration:none } 
       </style> 
@@ -11,10 +11,10 @@
   </head>
   <body>
     <div class="menu-bar">
-      <h1 class="logo"><img src="icon(1).png" />JB<span>Crackers</span></h1>
+      <h1 class="logo"><a class="at"href="index.html"><img src="images/icon(1).png" />JB<span>Crackers</span></a></h1>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">커리큘럼</a></li>
+        <li><a href="team.html">팀소개</a></li>
+        <li><a href="port.html">커리큘럼</a></li>
         <li><a href="#">관련직업 <i class="fas fa-caret-down"></i></a>
 
             <div class="dropdown-menu">
@@ -37,7 +37,26 @@
                 </ul>
               </div>
         </li>
-        <li><a href="#">관련사이트</a>
+        <li><a href="#">관련사이트<i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-menu">
+            <ul>
+              <li><a href="http://www.itnews.or.kr/">IT NEWS</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li>
+                <a href="#">Team <i class="fas fa-caret-right"></i></a>
+                
+                <div class="dropdown-menu-1">
+                  <ul>
+                    <li><a href="#">Team-1</a></li>
+                    <li><a href="#">Team-2</a></li>
+                    <li><a href="#">Team-3</a></li>
+                    <li><a href="#">Team-4</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
         </li>
         <li><a href="#">자격증</a></li>
       </ul>
@@ -48,18 +67,6 @@
     </div>
     <!--테스트-->
     <div class="container">
-      <!--<div class="menu">
-        <ul>
-          <li class="logo"><img src="icon(1).png" /></li>
-          <li class="active">Home</li>
-          <li>관련사이트</li>
-          <li>직업소개</li>
-          <li>커리큘럼</li>
-          <li>
-            <a href="#" class="signup-btn"><span>Sign Up</span></a>
-          </li>
-        </ul>
-      </div>-->
       <div class="banner">
         <div class="app-text">
           <h1>보안정보<br />제공사이트</h1>
@@ -79,11 +86,12 @@
           <div class="app-picture-img"></div>
         </div>
       </div>
+      
       <div class="quick-links">
         <ul>
           <li>
-            <i class="fa fa-file" aria-hidden="true"></i>
-            <p><a href="http://www.naver.com"style="color: #fff" textde>하승범</a></p>
+            <i class="fa fa-file" aria-hidden="true"><a href="job.html"></a></i>
+            <p><a href="http://www.naver.com"style="color: #fff">하승범</a></p>
           </li>
           <li>
             <i class="fa fa-file" aria-hidden="true"></i>
@@ -99,6 +107,8 @@
           </li>
         </ul>
       </div>
-    </div>
+    
+      
+        </div>
   </body>
 </html>
