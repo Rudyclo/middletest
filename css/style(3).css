@@ -303,9 +303,19 @@ input[type="radio"], input[type="checkbox"] {
   margin-right: 50px;
   margin-top: 60px;
   float: left;
+  animation: slideInFormRight 1s ease-in;
   
 }
 .card h1{
   color:#0073ff;
   margin-bottom: 20px;
+}
+
+@keyframes slideInFormRight{
+  0%{
+    transform: translateX(100%)
+  }
+  100%{
+    transform: translateX(0);
+  }
 }
