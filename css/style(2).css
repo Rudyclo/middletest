@@ -126,7 +126,7 @@
     margin-top: 100px;
     margin-left: 1000px;
     color: #fff;
-    z-index: 2;
+    z-index: -2;
  }
  
   .himg{
@@ -144,6 +144,31 @@
     border: 0;
     background:  #72758b;
   }
+  .subcard{
+    background-color: rgb(236, 235, 235);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    margin: 10px;
+    margin-left: 00px;
+    margin-right: 900px;
+    margin-top: 30px;
+    float: left;
+    }
+    .subcard h2{
+      border-bottom: 1px #ccc solid;
+      margin: 30px;
+      padding: 1rem;
+      
+    }
+    .subcard a{
+      text-decoration: none;
+      color: black;
+    }
+    .subcard a:hover{
+      font-weight: bold;
+    }
   .card{
     background-color: #fff;
     color: #333;
